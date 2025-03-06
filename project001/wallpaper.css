@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(240, 183, 240, 0.925);
+}
+
+.header h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+}
+
+.walls img
+{
+    margin: 12px;
+    width:600px;
+}
+
+.walls img:hover
+{
+    transform:scale(1.1);
+    transition: transform 1s ease-in-out 0s;
+    border:5px solid white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.walls{
+    /* margin: 12px; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
